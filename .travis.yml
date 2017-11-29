@@ -1,5 +1,5 @@
 deploy:
   provider: s3
-  access_key_id: "AKIAJPEU47HNWYXR2GNQ"
-  secret_access_key: "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"
+  access_key_id: "AKIAICQAT3NLMH2ZEBTQ"
+  secret_access_key: "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"
   bucket: "test-techbeach"
