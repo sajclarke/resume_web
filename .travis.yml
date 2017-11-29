@@ -2,4 +2,4 @@ deploy:
   provider: s3
   access_key_id: "AKIAJPEU47HNWYXR2GNQ"
   secret_access_key: "r7TPdUyVr+TZJn2RhLMXx1yx+qFLhm4gk6STiWNO"
-  bucket: "aws-website-sample-6c2ql"
+  bucket: "test-techbeach"
