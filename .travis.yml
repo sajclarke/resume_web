@@ -1,6 +1,10 @@
 language: python
 python:
   - "3.5"
+cache: pip
+install:
+  # Install any dependencies required for building your site here.
+  # `awscli` is required for invalidation of CloudFront distributions.
 script:
   # Build your site (e.g., HTML, CSS, JS) here.
 deploy:
@@ -15,3 +19,5 @@ deploy:
   secret_access_key: $AWS_SECRET_ACCESS_KEY
   # Name of the S3 bucket to which your site should be uploaded.
   bucket: test-techbeach
+  # Prevent Travis from deleting your built site so it can be uploaded.
+  skip_cleanup: true
