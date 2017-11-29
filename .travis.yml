@@ -1,6 +1,4 @@
-language: php
-php:
-  - 7.1.9
+language: node_js
 deploy:
   provider: s3
   # You can refer to environment variables from Travis repo settings!
