@@ -1,5 +1,4 @@
-before_deploy:
-  pip install --user awscli
+language: node_js
 deploy:
   provider: s3
   # You can refer to environment variables from Travis repo settings!
