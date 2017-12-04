@@ -2,8 +2,8 @@ language: ruby
 rvm:
   - 2.1
 install: gem install jekyll -v 2.4.0 && gem install s3_website
-script: jekyll build
-after_success: s3_website push
+#script: jekyll build
+#after_success: s3_website push
 deploy:
   provider: s3
   # You can refer to environment variables from Travis repo settings!
